@@ -1,0 +1,12 @@
+{
+  "name": "car-Shop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/styles/input/input.css -o ./src/styles/output/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
