@@ -38,7 +38,7 @@
       <a href="index.html" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini">پنل</span>
-        <!-- logo for regular state and mobile devices -->
+        <!-- logo for regular state and h devices -->
         <span class="logo-lg"><b>کنترل پنل مدیریت</b></span>
       </a>
       <!-- Header Navbar: style can be found in header.less -->
@@ -113,7 +113,7 @@
               </span>
             </a>
             <ul class="treeview-menu">
-              <li><a href="index2.html"><i class="fa fa-circle-o"></i> همه محصولات</a></li>
+              <li><a href="./allProduct.html"><i class="fa fa-circle-o"></i> همه محصولات</a></li>
               <li class="active"><a href="./createProduct.html"><i class="fa fa-circle-o"></i> ایجاد محصول</a></li>
               <li class="active"><a href="./editProduct.html"><i class="fa fa-circle-o"></i> ویرایش محصول</a></li>
             </ul>
@@ -127,8 +127,9 @@
             </a>
             <ul class="treeview-menu">
               <li><a href="index2.html"><i class="fa fa-circle-o"></i> همه دسته بندی ها</a></li>
-              <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> ایجاد دسته بندی</a></li>
-              <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> ویرایش دسته بندی </a></li>
+              <li class="active"><a href="./createCategories.html"><i class="fa fa-circle-o"></i> ایجاد دسته بندی</a>
+              </li>
+              <li class="active"><a href="./editProduct.html"><i class="fa fa-circle-o"></i> ویرایش دسته بندی </a></li>
             </ul>
           </li>
 
@@ -142,83 +143,45 @@
       <!-- Content Header (Page header) -->
       <section class="content-header">
         <h1>
-          داشبورد
+          ویرایش دسته بندی
         </h1>
         <ol class="breadcrumb">
           <li><a href="#"><i class="fa fa-dashboard"></i> خانه</a></li>
-          <li class="active">داشبورد</li>
+          <li class="active">ویرایش دسته بندی</li>
         </ol>
       </section>
 
       <!-- Main content -->
       <section class="content">
-        <!-- Info boxes -->
-        <div class="row">
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="info-box">
-              <span class="info-box-icon bg-aqua"><i class="ion ion-ios-gear-outline"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">تعداد کاربران</span>
-                <span class="info-box-number">90</span>
-              </div>
-              <!-- /.info-box-content -->
+        <div class="col-12">
+          <!-- general form elements -->
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <h3 class="box-title">فرم ویرایش دسته بندی</h3>
             </div>
-            <!-- /.info-box -->
+            <!-- /.box-header -->
+            <!-- form start -->
+            <form role="form">
+              <div class="box-body">
+                <div class="row">
+                  <div class="form-group col-sm-12 col-md-6">
+                    <label for="exampleInputEmail1">نام دسته بندی</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="نام دسته بندی">
+                  </div>
+                </div>
+                <div class="box-footer">
+                  <button type="submit" class="btn btn-primary">ثبت دسته بندی</button>
+                </div>
+            </form>
           </div>
-          <!-- /.col -->
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="info-box">
-              <span class="info-box-icon bg-red"><i class="fa fa-google-plus"></i></span>
 
-              <div class="info-box-content">
-                <span class="info-box-text">تعداد محصولات</span>
-                <span class="info-box-number">10</span>
-              </div>
-              <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
-
-          <!-- fix for small devices only -->
-          <div class="clearfix visible-sm-block"></div>
-
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="info-box">
-              <span class="info-box-icon bg-green"><i class="ion ion-ios-cart-outline"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">دسته یندی ها</span>
-                <span class="info-box-number">50</span>
-              </div>
-              <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="info-box">
-              <span class="info-box-icon bg-yellow"><i class="ion ion-ios-people-outline"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">مقالات</span>
-                <span class="info-box-number">0</span>
-              </div>
-              <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
-        </div>
-  
       </section>
       <!-- /.content -->
     </div>
     <!-- /.content-wrapper -->
     <footer class="main-footer text-left">
-      <strong>Copyleft &copy; 2022 <a href="">khosrora</a> & <a
-          href="http://hosseinizadeh.ir/adminlte">saedeh sarhadi</a></strong>
+      <strong>Copyleft &copy; 2022 <a href="">khosrora</a> & <a href="http://hosseinizadeh.ir/adminlte">saedeh
+          sarhadi</a></strong>
     </footer>
   </div>
   <!-- ./wrapper -->
