@@ -226,63 +226,66 @@
             </div>
             <hr>
             <div class="flex flex-col gap-y-4 px-4">
-                <div class="px-4 mt-4 border p-4">
-                    <span class="text-sm font-bold">بر اساس قیمت</span>
-                    <div class="form-check flex justify-start items-center mt-4">
-                        <input
-                            class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200  align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
-                            type="radio" name="price" id="price-cheep-1">
-                        <label class="form-check-label inline-block text-gray-800 mr-4 text-xs" for="price-cheep-1">
-                            ارزان ترین
-                        </label>
+                <form class="flex flex-col gap-y-4 px-4" action="">
+                    <div class="px-4 mt-4 border p-4">
+                        <span class="text-sm font-bold">بر اساس قیمت</span>
+                        <div class="form-check flex justify-start items-center mt-4">
+                            <input
+                                class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200  align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+                                type="radio" name="filter" id="price-cheep-1">
+                            <label class="form-check-label inline-block text-gray-800 mr-4 text-xs" for="price-cheep-1">
+                                ارزان ترین
+                            </label>
+                        </div>
+                        <div class="form-check flex justify-start items-center mt-4">
+                            <input
+                                class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200  align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+                                type="radio" name="filter" id="price-expensive-1">
+                            <label class="form-check-label inline-block text-gray-800 mr-4 text-xs"
+                                for="price-expensive-1">
+                                گران ترین
+                            </label>
+                        </div>
                     </div>
-                    <div class="form-check flex justify-start items-center mt-4">
-                        <input
-                            class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200  align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
-                            type="radio" name="price" id="price-expensive-1">
-                        <label class="form-check-label inline-block text-gray-800 mr-4 text-xs" for="price-expensive-1">
-                            گران ترین
-                        </label>
+                    <div class="px-4 mt-4 border p-4">
+                        <span class="text-sm font-bold">بر اساس زمان</span>
+                        <div class="form-check flex justify-start items-center mt-4">
+                            <input
+                                class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200  align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+                                type="radio" name="filter" id="time-1">
+                            <label class="form-check-label inline-block text-gray-800 mr-4 text-xs" for="time-1">
+                                جدید ترین
+                            </label>
+                        </div>
+                        <div class="form-check flex justify-start items-center mt-4">
+                            <input
+                                class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200  align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+                                type="radio" name="filter" id="time-2">
+                            <label class="form-check-label inline-block text-gray-800 mr-4 text-xs" for="time-2">
+                                قدیمی ترین
+                            </label>
+                        </div>
                     </div>
-                </div>
-                <div class="px-4 mt-4 border p-4">
-                    <span class="text-sm font-bold">بر اساس زمان</span>
-                    <div class="form-check flex justify-start items-center mt-4">
-                        <input
-                            class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200  align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
-                            type="radio" name="time" id="time-1">
-                        <label class="form-check-label inline-block text-gray-800 mr-4 text-xs" for="time-1">
-                            جدید ترین
-                        </label>
+                    <div class="px-4 mt-4 border p-4">
+                        <span class="text-sm font-bold">کالاهای موجود</span>
+                        <div class="form-check flex justify-start items-center mt-4">
+                            <input
+                                class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200  align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+                                type="radio" name="filter" id="isTrue">
+                            <label class="form-check-label inline-block text-gray-800 mr-4 text-xs" for="isTrue">
+                                موجود است
+                            </label>
+                        </div>
+                        <div class="form-check flex justify-start items-center mt-4">
+                            <input
+                                class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200  align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+                                type="radio" name="filter" id="isFlase">
+                            <label class="form-check-label inline-block text-gray-800 mr-4 text-xs" for="isFlase">
+                                موجود نیست
+                            </label>
+                        </div>
                     </div>
-                    <div class="form-check flex justify-start items-center mt-4">
-                        <input
-                            class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200  align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
-                            type="radio" name="time" id="time-2">
-                        <label class="form-check-label inline-block text-gray-800 mr-4 text-xs" for="time-2">
-                            قدیمی ترین
-                        </label>
-                    </div>
-                </div>
-                <div class="px-4 mt-4 border p-4">
-                    <span class="text-sm font-bold">کالاهای موجود</span>
-                    <div class="form-check flex justify-start items-center mt-4">
-                        <input
-                            class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200  align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
-                            type="radio" name="true" id="isTrue">
-                        <label class="form-check-label inline-block text-gray-800 mr-4 text-xs" for="isTrue">
-                            موجود است
-                        </label>
-                    </div>
-                    <div class="form-check flex justify-start items-center mt-4">
-                        <input
-                            class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200  align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
-                            type="radio" name="true" id="isFlase">
-                        <label class="form-check-label inline-block text-gray-800 mr-4 text-xs" for="isFlase">
-                            موجود نیست
-                        </label>
-                    </div>
-                </div>
+                </form>
                 <div class="px-4 mt-4 border p-4">
                     <span class="text-sm font-bold">دسته بندی </span>
                     <div class="form-check flex justify-start items-center mt-4">
@@ -328,64 +331,67 @@
                 </div>
                 <hr>
                 <div class="flex flex-col gap-y-4 px-4">
-                    <div class="px-4 mt-4 border p-4">
-                        <span class="text-sm font-bold">بر اساس قیمت</span>
-                        <div class="form-check flex justify-start items-center mt-4">
-                            <input
-                                class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200  align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
-                                type="radio" name="price" id="price-cheep-1">
-                            <label class="form-check-label inline-block text-gray-800 mr-4 text-xs" for="price-cheep-1">
-                                ارزان ترین
-                            </label>
+                    <form class="flex flex-col gap-y-4" action="">
+                        <div class="px-4 mt-4 border p-4">
+                            <span class="text-sm font-bold">بر اساس قیمت</span>
+                            <div class="form-check flex justify-start items-center mt-4">
+                                <input
+                                    class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200  align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+                                    type="radio" name="filter" id="price-cheep-1">
+                                <label class="form-check-label inline-block text-gray-800 mr-4 text-xs"
+                                    for="price-cheep-1">
+                                    ارزان ترین
+                                </label>
+                            </div>
+                            <div class="form-check flex justify-start items-center mt-4">
+                                <input
+                                    class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200  align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+                                    type="radio" name="filter" id="price-expensive-1">
+                                <label class="form-check-label inline-block text-gray-800 mr-4 text-xs"
+                                    for="price-expensive-1">
+                                    گران ترین
+                                </label>
+                            </div>
                         </div>
-                        <div class="form-check flex justify-start items-center mt-4">
-                            <input
-                                class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200  align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
-                                type="radio" name="price" id="price-expensive-1">
-                            <label class="form-check-label inline-block text-gray-800 mr-4 text-xs"
-                                for="price-expensive-1">
-                                گران ترین
-                            </label>
+                        <div class="px-4 mt-4 border p-4">
+                            <span class="text-sm font-bold">بر اساس زمان</span>
+                            <div class="form-check flex justify-start items-center mt-4">
+                                <input
+                                    class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200  align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+                                    type="radio" name="filter" id="time-1">
+                                <label class="form-check-label inline-block text-gray-800 mr-4 text-xs" for="time-1">
+                                    جدید ترین
+                                </label>
+                            </div>
+                            <div class="form-check flex justify-start items-center mt-4">
+                                <input
+                                    class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200  align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+                                    type="radio" name="filter" id="time-2">
+                                <label class="form-check-label inline-block text-gray-800 mr-4 text-xs" for="time-2">
+                                    قدیمی ترین
+                                </label>
+                            </div>
                         </div>
-                    </div>
-                    <div class="px-4 mt-4 border p-4">
-                        <span class="text-sm font-bold">بر اساس زمان</span>
-                        <div class="form-check flex justify-start items-center mt-4">
-                            <input
-                                class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200  align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
-                                type="radio" name="time" id="time-1">
-                            <label class="form-check-label inline-block text-gray-800 mr-4 text-xs" for="time-1">
-                                جدید ترین
-                            </label>
+                        <div class="px-4 mt-4 border p-4">
+                            <span class="text-sm font-bold">کالاهای موجود</span>
+                            <div class="form-check flex justify-start items-center mt-4">
+                                <input
+                                    class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200  align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+                                    type="radio" name="filter" id="isTrue">
+                                <label class="form-check-label inline-block text-gray-800 mr-4 text-xs" for="isTrue">
+                                    موجود است
+                                </label>
+                            </div>
+                            <div class="form-check flex justify-start items-center mt-4">
+                                <input
+                                    class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200  align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+                                    type="radio" name="filter" id="isFlase">
+                                <label class="form-check-label inline-block text-gray-800 mr-4 text-xs" for="isFlase">
+                                    موجود نیست
+                                </label>
+                            </div>
                         </div>
-                        <div class="form-check flex justify-start items-center mt-4">
-                            <input
-                                class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200  align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
-                                type="radio" name="time" id="time-2">
-                            <label class="form-check-label inline-block text-gray-800 mr-4 text-xs" for="time-2">
-                                قدیمی ترین
-                            </label>
-                        </div>
-                    </div>
-                    <div class="px-4 mt-4 border p-4">
-                        <span class="text-sm font-bold">کالاهای موجود</span>
-                        <div class="form-check flex justify-start items-center mt-4">
-                            <input
-                                class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200  align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
-                                type="radio" name="true" id="isTrue">
-                            <label class="form-check-label inline-block text-gray-800 mr-4 text-xs" for="isTrue">
-                                موجود است
-                            </label>
-                        </div>
-                        <div class="form-check flex justify-start items-center mt-4">
-                            <input
-                                class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200  align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
-                                type="radio" name="true" id="isFlase">
-                            <label class="form-check-label inline-block text-gray-800 mr-4 text-xs" for="isFlase">
-                                موجود نیست
-                            </label>
-                        </div>
-                    </div>
+                    </form>
                     <div class="px-4 mt-4 border p-4">
                         <span class="text-sm font-bold">دسته بندی </span>
                         <div class="form-check flex justify-start items-center mt-4">
