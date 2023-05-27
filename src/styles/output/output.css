@@ -810,6 +810,14 @@ html {
   height: 3.5rem;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
 .w-3 {
   width: 0.75rem;
 }
@@ -836,6 +844,18 @@ html {
 
 .w-1\/6 {
   width: 16.666667%;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
+.w-40 {
+  width: 10rem;
+}
+
+.w-60 {
+  width: 15rem;
 }
 
 .max-w-6xl {
@@ -917,6 +937,11 @@ html {
   row-gap: 1rem;
 }
 
+.gap-x-1 {
+  -moz-column-gap: 0.25rem;
+       column-gap: 0.25rem;
+}
+
 .gap-y-2 {
   row-gap: 0.5rem;
 }
@@ -928,11 +953,6 @@ html {
 .gap-x-2 {
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
-}
-
-.gap-x-1 {
-  -moz-column-gap: 0.25rem;
-       column-gap: 0.25rem;
 }
 
 .rounded-md {
@@ -1017,11 +1037,6 @@ html {
   background-color: rgb(191 219 254 / var(--tw-bg-opacity));
 }
 
-.bg-zinc-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(161 161 170 / var(--tw-bg-opacity));
-}
-
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -1060,6 +1075,11 @@ html {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-2 {
@@ -1191,10 +1211,6 @@ html {
   font-size: 7px;
 }
 
-.text-\[14px\] {
-  font-size: 14px;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -1263,10 +1279,6 @@ html {
 .text-blue-600 {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
-}
-
-.text-\[1\6F2px\] {
-  color: 1۲px;
 }
 
 .opacity-50 {

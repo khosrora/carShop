@@ -48,7 +48,7 @@
   <!-- ! tooltip end -->
 
   <!-- ! navbar start -->
-  <div class="max-w-7xl m-auto" >
+  <div class="max-w-7xl m-auto">
     <!-- ! sideBar start -->
     <div x-show="open" x-on:click="open = ! open"
       class="fixed left-0 top-0 bottom-0 right-0 z-40 bg-slate-800 opacity-50"></div>
@@ -146,11 +146,8 @@
             دسته بندی ها
           </p>
         </div>
-        <div class="text-[12px] md:text-xl">
-          <p>
-            نگار
-            <span class="text-red-600 text-[18px] md:text-2xl">خودرو</span>
-          </p>
+        <div class="">
+          <embed src="./images/logo.svg" width="150" />
         </div>
         <a href="/" class="flex justify-start items-center">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -360,7 +357,8 @@
             <p>تجهیزات تعمیرگاهی</p>
           </a>
         </li>
-        <div x-on:click="open=true" class="flex justify-start items-center gap-x-1 text-md cursor-pointer hover:text-red-600">
+        <div x-on:click="open=true"
+          class="flex justify-start items-center gap-x-1 text-md cursor-pointer hover:text-red-600">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
             stroke="currentColor" class="w-4 h-4">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
